@@ -1,0 +1,60 @@
+[
+  {
+    "id": "normal-month",
+    "name": "Mes normal",
+    "description": "Un mes de tráfico cotidiano: 10.000 coches al día, con horas punta por la mañana y por la tarde.",
+    "startDate": "2013-09-17",
+    "days": 20,
+    "speed": 0.25,
+    "files": [
+      "day01.csv",
+      "day02.csv",
+      "day03.csv",
+      "day04.csv",
+      "day05.csv",
+      "day06.csv",
+      "day07.csv",
+      "day08.csv",
+      "day09.csv",
+      "day10.csv",
+      "day11.csv",
+      "day12.csv",
+      "day13.csv",
+      "day14.csv",
+      "day15.csv",
+      "day16.csv",
+      "day17.csv",
+      "day18.csv",
+      "day19.csv",
+      "day20.csv"
+    ],
+    "trips": 302430
+  },
+  {
+    "id": "heavy-traffic",
+    "name": "Tráfico intenso",
+    "description": "Tres días con el triple de coches y muchos más vuelos y barcos.",
+    "startDate": "2013-12-20",
+    "days": 3,
+    "speed": 0.15,
+    "files": [
+      "day01.csv",
+      "day02.csv",
+      "day03.csv"
+    ],
+    "trips": 90810
+  },
+  {
+    "id": "evacuation",
+    "name": "Evacuación de Los Santos",
+    "description": "Día 1: todo el mundo huye de Los Santos hacia el norte por carretera, aire y mar. Día 2: vuelta a casa. Atascos (coches más lentos) el primer día.",
+    "startDate": "2013-10-31",
+    "days": 2,
+    "speed": 0.1,
+    "files": [
+      "day01.csv",
+      "day02.csv"
+    ],
+    "trips": 30840
+  }
+]
